@@ -17,6 +17,8 @@
 		2921E6E61CCB02BB00D00DB9 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921E6E51CCB02BB00D00DB9 /* PlayersViewController.swift */; };
 		2921E6EA1CCB03DD00D00DB9 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921E6E91CCB03DD00D00DB9 /* Players.swift */; };
 		2921E6EC1CCB045900D00DB9 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921E6EB1CCB045900D00DB9 /* SampleData.swift */; };
+		2976BBA51CDFFBFB0006535D /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976BBA41CDFFBFB0006535D /* PlayerDetailsViewController.swift */; };
+		2976BBA71CE01E8F0006535D /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976BBA61CE01E8F0006535D /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		2921E6E51CCB02BB00D00DB9 /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		2921E6E91CCB03DD00D00DB9 /* Players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
 		2921E6EB1CCB045900D00DB9 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		2976BBA41CDFFBFB0006535D /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		2976BBA61CE01E8F0006535D /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				2921E6E51CCB02BB00D00DB9 /* PlayersViewController.swift */,
 				2921E6E91CCB03DD00D00DB9 /* Players.swift */,
 				2921E6EB1CCB045900D00DB9 /* SampleData.swift */,
+				2976BBA41CDFFBFB0006535D /* PlayerDetailsViewController.swift */,
+				2976BBA61CE01E8F0006535D /* GamePickerViewController.swift */,
 			);
 			path = Lab1_ECE158B;
 			sourceTree = "<group>";
@@ -267,6 +273,8 @@
 			files = (
 				2921E6EA1CCB03DD00D00DB9 /* Players.swift in Sources */,
 				2921E6B81CCAE6BC00D00DB9 /* ViewController.swift in Sources */,
+				2976BBA71CE01E8F0006535D /* GamePickerViewController.swift in Sources */,
+				2976BBA51CDFFBFB0006535D /* PlayerDetailsViewController.swift in Sources */,
 				2921E6B61CCAE6BC00D00DB9 /* AppDelegate.swift in Sources */,
 				2921E6EC1CCB045900D00DB9 /* SampleData.swift in Sources */,
 				2921E6E61CCB02BB00D00DB9 /* PlayersViewController.swift in Sources */,
@@ -496,6 +504,7 @@
 				2921E6DC1CCAE6BC00D00DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2921E6DD1CCAE6BC00D00DB9 /* Build configuration list for PBXNativeTarget "Lab1_ECE158BTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				2921E6DF1CCAE6BC00D00DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2921E6E01CCAE6BC00D00DB9 /* Build configuration list for PBXNativeTarget "Lab1_ECE158BUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				2921E6E21CCAE6BC00D00DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
